@@ -1,0 +1,10 @@
+<hi>Users</hi>
+<ul>
+  <% @users.keys.each do |name| %>
+    <li>
+      <a href="/<%= name %>">
+        <%= name %>
+      </a>
+    </li>
+  <% end %>
+</ul>
